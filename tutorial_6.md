@@ -3,6 +3,7 @@
 polls 디렉터리 안에 이름이 static인 디렉터리를 만든다. css나 image 파일등은 static으로 처리한다. 
 
 > polls/static/polls/style.css
+
 ```
 li a {
     color: green;
@@ -11,6 +12,7 @@ li a {
 style.css를 만들고 color값을 지정해본다. 
 
 > polls/templates/polls/index.html
+
 ```
 {% load static %}
 
